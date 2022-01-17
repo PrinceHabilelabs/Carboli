@@ -1,0 +1,30 @@
+for web ----
+
+Latest code Branch Name--- testing
+
+Live url -- https://carboli.com
+Stage url -- https://carboli.zirkel.tech
+
+
+For Admin ---
+
+Latest code Branch Name--- testing
+
+Live url -- https://admin.carboli.com
+Stage url -- https://carboli.habilelabs.in
+
+Login credentials for admin ---
+
+Email -- admin@carboli.com	
+Password -- 123456
+
+Steps to deploy admin on stage---
+
+ssh host1@182.1.1.51
+password host1@habilelabs
+cd /home/host1/development/carboli-dashboard
+git pull
+username and password apna dal do
+npm i (if needed)
+npm run build
+
